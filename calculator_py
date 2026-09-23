@@ -1,0 +1,13 @@
+def operation():
+    a = float(input("enter number a:"))
+    b = float(input("enter number b:"))
+    op = input("enter an operation:")
+    if op == "add":
+        return a + b
+    elif op == "substract":
+        return a - b
+    elif op == "multiply":
+        return a * b
+    elif op== "divide":
+        return a / b
+print(operation())
